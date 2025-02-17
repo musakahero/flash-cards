@@ -2,9 +2,8 @@
 
 This is a simple app that displays flash cards with questions selected randomly. The questions/answers are pulled from a local JSON file.
 
-## Formatting the JSON file
-
-The JSON file must have the following structure: 
+## Finding and formatting the JSON questions storage
+The storage for the questions/answers is a JSON file named "questions.json". It must have the following structure: 
     {
         "questionsAndAnswers": [
             {
@@ -20,6 +19,9 @@ The JSON file must have the following structure:
     }
 
 The "front" value will contain your question, and the "back" value will be the answer. You can have as many question-answer objects as you like. 
+
+## Keeping score
+Clicking "Correct" or "Incorrect" will indicate if it you provided right answer or not. The score will be displayed in the scoreboard below and kept in the browser's Local Storage. Clicking the "RESET" button will clear the score from the browser's Local Storage.
 
 # About Create React App
 
