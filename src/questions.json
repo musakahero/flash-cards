@@ -1,0 +1,16 @@
+{
+    "questionsAndAnswers": [
+        {
+            "front": "What is an Instruction Set Architecture (ISA)?",
+            "back": "The interface between hardware and software, defining instructions a processor can execute"
+        },
+        {
+            "front": "List three components that determine CPU time according to the performance equation.",
+            "back": "Instruction Count, CPI (Cycles Per Instruction), Clock Cycle Time (or Clock Rate)"
+        },
+        {
+            "front": "What does CPI stand for and what can influence this?",
+            "back": "Cycles Per Instruction. Influenced by ISA, Compiler, CPU architecture and caching"
+        }
+    ]
+}

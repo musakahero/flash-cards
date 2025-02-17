@@ -1,0 +1,15 @@
+.sbContainer {
+    width: 20rem;
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid var(--main-font-color);
+    border-radius: 18px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.sbContainer span {
+    margin: 0 auto;
+}

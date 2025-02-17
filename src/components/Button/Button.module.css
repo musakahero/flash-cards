@@ -1,0 +1,30 @@
+.btn {
+    background-color: var(--main-bg-color);
+    padding: 0.5rem 1rem;
+    border-radius: 18px;
+    border: 2px solid var(--main-font-color);
+    cursor: pointer;
+    color: var(--main-font-color);
+}
+
+.btn:hover {
+    color: var(--main-bg-color);
+    background-color: var(--main-font-color);
+}
+
+.btnFalse {
+    color: var(--false-font-color)
+}
+
+.btnFalse:hover {
+    color: var(--main-bg-color);
+    background-color: var(--false-font-color);
+}
+
+.btnTrue {
+    color: var(--true-font-color);
+}
+.btnTrue:hover {
+    color: var(--main-bg-color);
+    background-color: var(--true-font-color);
+}
