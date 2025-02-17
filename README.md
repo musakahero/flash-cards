@@ -4,6 +4,7 @@ This is a simple app that displays flash cards with questions selected randomly.
 
 ## Finding and formatting the JSON questions storage
 The storage for the questions/answers is a JSON file named "questions.json". It must have the following structure: 
+```json
     {
         "questionsAndAnswers": [
             {
@@ -14,9 +15,9 @@ The storage for the questions/answers is a JSON file named "questions.json". It 
                 "front": "List three components that determine CPU time according to the performance equation.",
                 "back": "Instruction Count, CPI (Cycles Per Instruction), Clock Cycle Time (or Clock Rate)"
             },
-            ...etc
         ]
     }
+```
 
 The "front" value will contain your question, and the "back" value will be the answer. You can have as many question-answer objects as you like. 
 
