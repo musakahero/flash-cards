@@ -9,9 +9,6 @@ function App() {
 
   const [qaData, setQaData] = useState([]);
   const [randomQuestion, setRandomQuestion] = useState(null);
-  //TODO: connect to localStorage
-  // const [correctCount, setCorrectCount] = useState(0);
-  // const [incorrectCount, setIncorrectCount] = useState(0);
   const [score, setScore] = useState(() => {
     return JSON.parse(localStorage.getItem("score")) || { correct: 0, incorrect: 0 };
   });
