@@ -1,4 +1,4 @@
-# About FlashCards
+# What is FlashCards?
 
 This is a simple app that displays flash cards with questions selected randomly. The questions/answers are pulled from a local JSON file.
 
